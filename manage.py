@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 from flask_script import Manager
-from main import app
+from hello import app
 
 manager = Manager(app)
 
