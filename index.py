@@ -9,5 +9,9 @@ def hello():
 def test():
     return "TEST!"
 
+@app.route("/github")
+def github():
+    return "github!"
+
 if __name__ == "__main__":
     app.run()
